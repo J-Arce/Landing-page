@@ -17,10 +17,10 @@
     <style>
         header{
             background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.829), rgb(20, 21, 58)); 
-            height: 100vh; /*Esto define el tamaño de la pagina*/
+            height: 240vh; /*Esto define el tamaño de la pagina*/
         }
         h1{
-            font-size: 45px;
+            font-size: 55px;
             font-family:Georgia, 'Times New Roman', Times, serif;
             color: rgb(255, 255, 255);
             text-align: center;
@@ -30,33 +30,12 @@
             font-size: 20px;
             margin-right: 10px;
         }
-        .btn_pedir{
-            width: 150px;
-            height: 35px;
-            border-radius: 15px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
-            margin-top: 50px;
-            color:rgb(255, 255, 255);
-            background-color: rgb(183, 8, 199);
-        }
-        .content{/*Clase para el contenido*/
-            margin-top: 70px;
-        }
         a:hover{/*Barra que aparece debajo de los textos al pasar el mause*/
             border-bottom: 2px solid rgb(251, 23, 23);
         }
-        .caja_imagen{
-            background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(38, 0, 49));
-            border-radius: 35px;
-            padding-bottom: 10px;
-            padding-right: 10px;
-            padding-top: 10px;
-        }
-        .icon{
-            width: 60px;
-            padding-right: 20px;
-            position:absolute;
-            bottom: 20px;
+        p{
+            color: white;
+            font-size: 40px;
         }
     </style>
 </head>
@@ -74,16 +53,28 @@
         </nav>
         <section>
             <div class="row">
-                <div class="col s6 center content">
-                    <h2 class="white-text" style="font-family:'Times New Roman', Times, serif; font-size: 50px;">BIENVENIDO A PIZZAS</h2>
-                    <P class="white-text" style="font-size: 25px;">Seccion de locales, incorporar mapa</P>
+                <div class="col s12">
+                    <h1>Conoce Nuestros Locales</h1>
                 </div>
-                <div class="col s6">
-                    <div class="caja_imagen">
-                        <h1>Prueba nuestra pizza vegetariana</h1>
-                        <img src="" height="340px" alt="pizza vegetariana" style="position: relative; left: 60px;">
+                <div class="col s12">
+                    <h1>Caldera</h1>
+                </div>
+                    <div class="col s12 center">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3552.8369250464743!2d-70.82368403518734!3d-27.066894949266242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1683080177938!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                </div>
+                    <div class="col s12 center">
+                        <p>Contamos con un local en Caldera, ubicado en la esquina Edwars con Ossa Cerda. Frente a "Ferreteria Bianchi"</p>
+                    </div>
+                    </div>
+                    <div class="col s12">
+                        <h1>Copiapó</h1>
+                    </div>
+                        <div class="col s12 center">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14173.104374974!2d-70.34384846126036!3d-27.367091620943253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x969803890a3d2f2f%3A0xfefc7b5816a8fecc!2sMallplaza%20Copiap%C3%B3!5e0!3m2!1ses!2scl!4v1683081993819!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="col s12 center">
+                            <p>También contamos con un local en Copiapó, dentro de Mallplaza ubicado en Av. Copayapu con interseccion Maipú</p>
+                        </div>
             </div>
         </section>
     </header>

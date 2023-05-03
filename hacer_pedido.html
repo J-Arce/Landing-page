@@ -72,22 +72,50 @@
                 <li><a href="locales.html">Locales</a></li>
             </ul>
         </nav>
-        <section>
+        <div class="section container">
             <div class="row">
-                <div class="col s6 center content">
-                    <h2 class="white-text" style="font-family:'Times New Roman', Times, serif; font-size: 50px;">Haz una pizza a tu antojo!</h2>
-                    <P class="white-text" style="font-size: 25px;">Seccion para hacer pizza, agregar formulario de creacion</P>
-                </div>
-                <div class="col s6">
-                    <div class="caja_imagen">
-                        <h1>Prueba nuestra pizza vegetariana</h1>
-                        <img src="" height="340px" alt="pizza vegetariana" style="position: relative; left: 60px;">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </header>
+                <form col s12 style="padding-top: 50px;">
+                    <div class="row card-panel" style="border-radius: 100px;">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input type="text" id="nombre" class="validate" required>
+                            <label for="nombre">Nombre:</label>
+                        </div>
 
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">assignment_ind</i>
+                            <input type="text" id="apellido" class="validate" required>
+                            <label for="apellido">Apellido:</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">email</i>
+                            <input type="email" id="email" class="validate" required>
+                            <label for="email">Email:</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">local_phone</i>
+                            <input type="text" id="telefono" class="validate" required>
+                            <label for="telefono">Teléfono:</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">location_on</i>
+                            <input type="text" id="direccion" class="validate" required>
+                            <label for="telefono">Direccion:</label>
+                        </div>
+                        <select class="browser-default" style="border-width: 4px;">
+                            <option value="" disabled selected>Seleccione su Pizza</option>
+                            <option value="1">Napolitana</option>
+                            <option value="2">Vegetariana</option>
+                            <option value="3">Pepperoni</option>
+                            <option value="4">Cuatro Quesos</option>
+                            <option value="5">Hawaiana</option>
+                        </select>
+                        <button class="btn" style="margin-top: 60px; margin-left: 350px;">Enviar Pedido</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
